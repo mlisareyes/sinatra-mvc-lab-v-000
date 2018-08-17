@@ -7,7 +7,7 @@ class PigLatinizer
       text.map do |word|
         if word.length == 1
          "#{word}way"
-        elsif vowel.include? word[0].downcase
+        elsif vowel.include? word[0]
           "#{word}way"
         else
           split = word.split(/([aeiou])/,2)
