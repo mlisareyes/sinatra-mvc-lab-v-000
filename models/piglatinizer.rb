@@ -4,6 +4,8 @@ class PigLatinizer
     @word = word
     if word =~ /^[aeiou]/i
       "#{word}way"
+    elsif
+      
 
 
 
