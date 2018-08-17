@@ -1,6 +1,11 @@
 class PigLatinizer
 
   def piglatinize(word)
-    if consonant 
+    @word = word
+    if word =~ /^[aeiou]/i
+      "#{word}way"
+
+
+
   end
 end
