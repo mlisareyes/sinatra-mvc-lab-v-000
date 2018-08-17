@@ -5,8 +5,8 @@ class PigLatinizer
     vowel ='aeiou'
     word = word.split()
       word.map do |text|
-        if word.length == 1
-         "#{word}way"
+        if text.length == 1
+         "#{text}way"
         elsif vowel.include? word[0]
           "#{word}way"
         else
