@@ -1,5 +1,4 @@
 class PigLatinizer
-
   def translate(sent)
   translation = sent.split(' ').map do |w|
     vowels = %w(a e i o u)
@@ -11,6 +10,5 @@ class PigLatinizer
       "%s%say" % [word[1..-1].join, word[0]]
     end
   end
-
   translation.join(' ').capitalize
 end
