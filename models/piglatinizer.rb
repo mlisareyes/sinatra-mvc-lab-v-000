@@ -1,7 +1,7 @@
 class PigLatinizer
 
-   def piglatinize(text)
-    @text = text.downcase
+   def piglatinize(word)
+    @word = text.downcase
     vowel ='aeiou'
     text = text.split()
       text.map do |word|
