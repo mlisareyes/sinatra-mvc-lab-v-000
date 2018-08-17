@@ -3,8 +3,8 @@ class PigLatinizer
    def piglatinize(word)
     @word = word
     vowel ='aeiou'
-    text = text.split()
-      text.map do |word|
+    word = word.split()
+      word.map do |text|
         if word.length == 1
          "#{word}way"
         elsif vowel.include? word[0]
