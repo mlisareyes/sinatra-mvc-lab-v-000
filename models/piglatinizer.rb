@@ -1,22 +1,3 @@
-Skip to content
-
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- @mlisareyes Sign out
-1
-0 1,007 joanapalero/sinatra-mvc-lab-v-000
-forked from learn-co-students/sinatra-mvc-lab-v-000
- Code  Pull requests 0  Projects 0  Wiki  Insights
-sinatra-mvc-lab-v-000/models/piglatinizer.rb
-066228d  6 days ago
-@joanapalero joanapalero Done.
-@joanapalero @dfenjves
-
-19 lines (17 sloc)  401 Bytes
 class PigLatinizer
 
    def piglatinize(text)
@@ -35,16 +16,3 @@ class PigLatinizer
     end.join(' ')
   end
 end
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Press h to open a hovercard with more details.
