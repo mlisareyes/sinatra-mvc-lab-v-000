@@ -8,9 +8,9 @@ class PigLatinizer
         if text.length == 1
          "#{text}way"
         elsif vowel.include? word[0]
-          "#{word}way"
+          "#{text}way"
         else
-          split = word.split(/([aeiou])/,2)
+          split = text.split(/([aeiou])/,2)
           "#{split[1]}#{split[2]}#{split[0]}ay"
       end
     end.join(' ')
